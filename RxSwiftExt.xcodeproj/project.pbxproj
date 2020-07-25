@@ -375,6 +375,7 @@
 		A23E148A21A9F03600CD5B2F /* partition+RxCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "partition+RxCocoa.swift"; sourceTree = "<group>"; };
 		A23E148E21A9F10D00CD5B2F /* PartitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionTests.swift; sourceTree = "<group>"; };
 		A23E149221A9F73500CD5B2F /* PartitionTests+RxCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PartitionTests+RxCocoa.swift"; sourceTree = "<group>"; };
+		A62EBA7724CC975B00E8C823 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		B69B45482190C27D00F30418 /* count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
 		B69B454C2190C3BC00F30418 /* CountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTests.swift; sourceTree = "<group>"; };
 		BF515CDF1F3F370600492640 /* curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = curry.swift; path = Source/Tools/curry.swift; sourceTree = SOURCE_ROOT; };
@@ -463,6 +464,7 @@
 				5386076D1E6F1BF9000361DE /* RxCocoa */,
 				538607991E6F3338000361DE /* RxSwift */,
 				BF515CDE1F3F36F200492640 /* Tools */,
+				A62EBA7724CC975B00E8C823 /* Config.xcconfig */,
 			);
 			name = Sources;
 			path = Source;
@@ -1354,6 +1356,7 @@
 		};
 		188C6D9C1C47B2B20092101A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62EBA7724CC975B00E8C823 /* Config.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
